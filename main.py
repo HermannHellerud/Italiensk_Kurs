@@ -172,7 +172,7 @@ def run_multiple_ans_quiz(questions, answers, quiz_title):
 
 
 # --------------------------------------------------------
-# QUIZ 1: SPØRREORD (your current quiz)
+# QUIZ 1: SPØRREORD
 # --------------------------------------------------------
 def quiz_sporreord():
     explanation = (
