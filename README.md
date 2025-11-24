@@ -1,5 +1,5 @@
-# Italiensk_Kurs
-Dette er et program som sender deg gjennom en rekke quizer
+# Italiensk Kurs
+Dette er et program som sender deg gjennom en rekke quizer. Disse testene/quizene er laget for å lære deg Italiensk
 
 # Viktig info!
 Dette programmet funker, men er ikke komplett enda!
