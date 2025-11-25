@@ -110,16 +110,21 @@ def run_quiz(questions, answers, quiz_title, multi=False, pretty_answers=None, e
                     print(BOLD + "De riktige svarene er:\n" + RESET + p + "\n")
                     break 
         else:
-            print(BOLD + question + RESET)
-            print(BOLD + "De riktige svarene er:\n" + RESET + valid_answers[0])
+            print
+            print(BOLD + "De riktige svarene er:\n" + RESET, end="")
+            for _, a in qa_pairs:
+                print("|" + a[0] + "|", end=" ")
+            print()
+            #print(BOLD + question + RESET)
+            #print(BOLD + "De riktige svarene er:\n" + RESET + valid_answers[0])
             break
     print()
 
 
 
-    print(BOLD + "Forsøk:\n" + RESET, end="")
+    print(BOLD + "Ditt forsøk:\n" + RESET, end="")
     for g in guesses:
-        print(g, end=" ")
+        print("|" + g + "|", end=" ")
     print()
 
     score_percent = int(score / len(qa_pairs) * 100)
